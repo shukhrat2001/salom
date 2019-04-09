@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name          = 'salom'
-  s.version       = '0.0.3'
+  s.version       = '0.0.4'
   s.date          = '2019-04-08'
   s.summary       = 'Salom!'
   s.description   = 'A simple hello world greeting in Tajik language'
   s.authors       = ["Shuhrat Negmatov"]
   s.email         = 'shukhrat2001@gmail.com'
-  s.files         = ["lib/salom.rb"]
+  s.files         = ["lib/salom.rb", "lib/salom/translator.rb"]
   s.homepage      = 'https://rubygems.org/gems/salom/versions/0.0.2'
   s.metadata      = { "source_code_uri" => "https://github.com/shukhrat2001/salom"}
   s.license       = 'MIT'

@@ -1,5 +1,8 @@
 class Salom
-  def self.hi
-    puts "Салом Тоҷикистон!"
+  def self.hi(language = "english")
+    translator = Translator.new(language)
+    translator.hi
   end
 end
+
+require 'salom/translator'
